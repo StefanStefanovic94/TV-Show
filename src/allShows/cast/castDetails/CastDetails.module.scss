@@ -1,0 +1,23 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border:solid lightgrey;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px lightgrey;
+    margin: 30px;
+    cursor: pointer;
+    h3{
+        text-align: center;
+        color:black;
+        max-width: fit-content;
+        margin: 0 auto;
+        
+    }
+    h5{
+        text-align: center;
+        max-width: fit-content;
+        margin: 0 auto;
+    }
+}

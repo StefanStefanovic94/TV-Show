@@ -1,0 +1,19 @@
+.card{
+    width: 100%;
+}
+.wraper{
+    border:solid lightgrey;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px lightgrey;
+    h2{
+        text-align: center;
+        color:black
+    }
+    p{
+        text-align: center;
+        color:black;
+    }
+}
+.wraper:hover{
+    box-shadow:7px 7px 15px lightgrey ;
+}

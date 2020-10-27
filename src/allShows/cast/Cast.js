@@ -3,6 +3,7 @@ import { FetchShows } from "../../services/Fetch"
 import {Link} from "react-router-dom"
 import style from "./Cast.module.scss"
 
+
 class Cast extends React.Component {
     constructor() {
         super()
@@ -35,7 +36,7 @@ class Cast extends React.Component {
                 )}
 
                 <Link to={`${/info-show/}${this.props.id}/cast`}>
-                <h6>click here for more details</h6>
+                <h6>...more details about cast</h6>
                 </Link>
 
             </div>

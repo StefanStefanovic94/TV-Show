@@ -35,7 +35,7 @@ class Seasons extends React.Component {
                     ))}
                 </div>
                 <Link to={`${/info-show/}${this.props.id}/seasons`}>
-                    <h6>click here for more details</h6>
+                    <h6>...more details about season</h6>
                 </Link>
                 {console.log(this.state.seasons)}
             </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import style from "./Search.module.scss"
 import { FetchShows } from "../services/Fetch"
 import Show from "./Show"
+import Image from "../image/image"
 
 // const Search = ({ searchedSeries, sortShows, value }) => {
 //     const change = (event) => {
@@ -69,7 +70,7 @@ class Search extends React.Component {
                     {this.state.value === "" ? "" : this.state.search.map(show => (
                         <Link to={`/info-show/${show.show.id}`}>
                             <div className={style.list}>
-                                <img className={style.image} src={show.show.image ? show.show.image.medium : "no image"} />
+                                <img className={style.image} src={show.show.image ? show.show.image.medium :  <Image/>} />
                                 <h2 className={style.text}>{show.show.name}</h2>
                             </div>
                         </Link>
